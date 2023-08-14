@@ -148,7 +148,7 @@ export async function loader({request}: DataFunctionArgs) {
   return json(data);
 }
 
-function App() {
+export function App() {
   const [theme] = useTheme();
   return (
     <html lang="en" className={clsx(theme, `set-color-team-current-blue`)}>
@@ -170,7 +170,7 @@ function App() {
   );
 }
 
-export default function AppWithProviders() {
+function AppWithProviders() {
   const data = useLoaderData<LoaderData>();
   return (
     <ThemeProvider specifiedTheme={data.requestInfo.session.theme}>
