@@ -2,13 +2,12 @@ import {V2_MetaFunction} from '@shopify/remix-oxygen';
 import {Grid} from '~/components/grid';
 import {HeroSection} from '~/components/sections/hero-section';
 import {WorkCard} from '~/components/work-card';
+import {getSeoMetas} from '~/utils/seo';
 
 export const meta: V2_MetaFunction = () => {
-  return [
-    {
-      title: 'Works',
-    },
-  ];
+  return getSeoMetas({
+    title: 'Works',
+  });
 };
 
 function WorksHome() {

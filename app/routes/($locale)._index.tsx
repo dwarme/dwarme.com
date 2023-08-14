@@ -5,14 +5,13 @@ import {WorkSection} from '~/components/sections/work-section';
 import {Spacer} from '~/components/spacer';
 import {H2, H6, Paragraph} from '~/components/typography';
 import {Image} from '@shopify/hydrogen';
-import {MetaFunction, V2_MetaFunction} from '@shopify/remix-oxygen';
+import {V2_MetaFunction} from '@shopify/remix-oxygen';
+import {getSeoMetas} from '~/utils/seo';
 
 export const meta: V2_MetaFunction = () => {
-  return [
-    {
-      title: 'Daouda Warme',
-    },
-  ];
+  return getSeoMetas({
+    title: 'Daouda Warme',
+  });
 };
 
 function AboutIndex() {

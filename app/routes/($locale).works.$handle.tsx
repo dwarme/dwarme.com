@@ -10,13 +10,12 @@ import type {
 import {json} from '@shopify/remix-oxygen';
 import WORKS from '~/works';
 import type {IWork} from '~/types';
+import {getSeoMetas} from '~/utils/seo';
 
 export const meta: V2_MetaFunction<typeof loader> = ({data}) => {
-  return [
-    {
-      title: data?.work.title ?? 'Works',
-    },
-  ];
+  return getSeoMetas({
+    title: data?.work.title ?? 'Works',
+  });
 };
 
 export const links: LinksFunction = () => {

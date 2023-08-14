@@ -23,6 +23,7 @@ import {getThemeSession} from './utils/theme.server';
 import clsx from 'clsx';
 import {Spacer} from './components/spacer';
 import {Footer} from './components/footer';
+import { Seo } from '@shopify/hydrogen';
 
 export const links: LinksFunction = () => [
   {
@@ -87,6 +88,7 @@ function App() {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <Seo />
         <Meta />
         <Links />
       </head>
