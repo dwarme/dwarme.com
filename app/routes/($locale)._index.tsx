@@ -1,15 +1,5 @@
 import {ArrowLink} from '~/components/arrow-button';
-import {FeatureCard} from '~/components/feature-card';
 import {Grid} from '~/components/grid';
-import {
-  AwardIcon,
-  BadgeIcon,
-  BookIcon,
-  FastForwardIcon,
-  MugIcon,
-  UsersIcon,
-} from '~/components/icons';
-import {HeaderSection} from '~/components/sections/header-section';
 import {HeroSection} from '~/components/sections/hero-section';
 import {WorkSection} from '~/components/sections/work-section';
 import {Spacer} from '~/components/spacer';
@@ -26,6 +16,8 @@ function AboutIndex() {
           src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/avatar.jpg?v=1691995193',
           alt: 'Illustration of a snowboard',
           style: {borderRadius: '50%'},
+          width: 400,
+          height: 400,
         }}
         arrowUrl="#about-me"
         arrowLabel="Get to know more about me"
@@ -49,7 +41,7 @@ function AboutIndex() {
             <Image
               className="w-full rounded-lg object-cover"
               src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/dwarme-coding-73GW73.png?v=1691791397"
-              alt=""
+              alt="daouda-coding"
               width={997}
               height={1024}
             />
@@ -84,7 +76,9 @@ function AboutIndex() {
             <Image
               className="rounded-lg object-cover"
               src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/alpis-18482994.jpg"
-              alt=""
+              alt="daouda-in-alpi"
+              width={1200}
+              height={1500}
             />
           </div>
         </div>
@@ -139,8 +133,10 @@ function AboutIndex() {
         <div className="col-span-full mb-10 lg:col-span-6 lg:col-start-1 lg:mb-0">
           <Image
             className="rounded-lg object-contain"
-            src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/original-869a98ea8eda24c603c06efcedee81b9-removebg.png?v=1691785114"
-            alt=""
+            src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/869a98ea8eda24c603c06efcedee81b9-removebg.png?v=1692024291"
+            alt="some-object"
+            width={1504}
+            height={1128}
           />
         </div>
 
