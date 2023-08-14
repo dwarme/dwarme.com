@@ -28,14 +28,14 @@ export const links: LinksFunction = () => [
   {
     rel: 'preload',
     as: 'font',
-    href: '/fonts/Matter-Medium.woff2',
+    href: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/Matter-Medium.woff2?v=1692029811',
     type: 'font/woff2',
     crossOrigin: 'anonymous',
   },
   {
     rel: 'preload',
     as: 'font',
-    href: '/fonts/Matter-Regular.woff2',
+    href: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/Matter-Regular.woff2?v=1692029811',
     type: 'font/woff2',
     crossOrigin: 'anonymous',
   },

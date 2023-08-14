@@ -142,7 +142,7 @@ function AboutIndex() {
         <div className="col-span-full mb-10 lg:col-span-6 lg:col-start-1 lg:mb-0">
           <Image
             className="rounded-lg object-contain"
-            src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/869a98ea8eda24c603c06efcedee81b9-removebg.png?v=1692024291"
+            src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/869a98ea8eda24c603c06efcedee81b9.png"
             alt="some-object"
             width={1504}
             height={1128}
