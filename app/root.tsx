@@ -56,7 +56,7 @@ export const links: LinksFunction = () => [
     sizes: '16x16',
     href: 'https://dwarme.com/favicons/favicon-16x16.png',
   },
-  {rel: 'manifest', href: '/site.webmanifest'},
+  {rel: 'manifest', href: 'https://dwarme.com/site.webmanifest'},
   {rel: 'icon', href: 'https://dwarme.com/favicon.ico'},
   {rel: 'stylesheet', href: vendorStyles},
   {rel: 'stylesheet', href: tailwindStyles},
