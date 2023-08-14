@@ -2,10 +2,22 @@ import {useLoaderData} from '@remix-run/react';
 import {Fragment} from 'react';
 import blogStyles from '~/styles/blog.css';
 import Blog from '~/components/blog/blog';
-import type {LinksFunction, LoaderArgs} from '@shopify/remix-oxygen';
+import type {
+  LinksFunction,
+  LoaderArgs,
+  V2_MetaFunction,
+} from '@shopify/remix-oxygen';
 import {json} from '@shopify/remix-oxygen';
 import WORKS from '~/works';
 import type {IWork} from '~/types';
+
+export const meta: V2_MetaFunction<typeof loader> = ({data}) => {
+  return [
+    {
+      title: data?.work.title ?? 'Works',
+    },
+  ];
+};
 
 export const links: LinksFunction = () => {
   return [{rel: 'stylesheet', href: blogStyles}];
