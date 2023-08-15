@@ -17,7 +17,10 @@ function WorksHome() {
         title="Explore my works"
         subtitle="Embark on a Journey Through My Creations"
         imageProps={{
-          src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/72351db1ea1b4386aec2da04b2da68a1-removebg-preview.png?v=1691996535',
+          src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/72351db1ea1b4386aec2da04b2da68a1.png',
+          alt: 'react-3d-logo',
+          width: 666,
+          height: 375,
         }}
       />
 
@@ -32,7 +35,7 @@ function WorksHome() {
             description="Mobile and Web payment app."
             imageProps={{
               src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/minibank-logo.png?v=1691507682',
-              alt: '',
+              alt: 'mini bz pay logo',
             }}
             workUrl="https://minibzpay.it"
             technologies={[
