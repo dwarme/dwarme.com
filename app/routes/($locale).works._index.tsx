@@ -94,7 +94,7 @@ function WorksHome() {
               alt: '',
               style: {borderRadius: 20},
             }}
-            workUrl="/works/trovads"
+            workUrl="/works/"
             technologies={[
               'Javascript',
               'Typescript',
