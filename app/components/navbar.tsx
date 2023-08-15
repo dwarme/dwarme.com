@@ -14,7 +14,7 @@ import {MoonIcon, SunIcon} from './icons';
 import {TeamCircle} from './team-circle';
 
 const LINKS = [
-  {name: 'works', to: '/works'},
+  {name: 'Works', to: '/works'},
   {name: 'About', to: '/'},
 ];
 
