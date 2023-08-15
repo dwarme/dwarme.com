@@ -41,19 +41,21 @@ const UsesPage: React.FC = () => {
               },
             ]}
           />
-          <div className="relative grid grid-cols-4 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 mx-auto max-w-7xl prose prose-light dark:prose-dark">
-            {usesTools.map((use) => (
-              <Fragment key={use.title}>
-                <h2 id="services">{use.title}</h2>
-                <ul>
-                  {use.items.map((item) => (
-                    <li key={item.title}>
-                      <a href={'#'}>{item.title}</a> - {item.subtitle}
-                    </li>
-                  ))}
-                </ul>
-              </Fragment>
-            ))}
+          <div className="relative mx-10vw">
+            <div className="relative grid grid-cols-4 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 mx-auto max-w-7xl prose prose-light dark:prose-dark">
+              {usesTools.map((use) => (
+                <Fragment key={use.title}>
+                  <h2 id="services">{use.title}</h2>
+                  <ul>
+                    {use.items.map((item) => (
+                      <li key={item.title}>
+                        <a href={'#'}>{item.title}</a> - {item.subtitle}
+                      </li>
+                    ))}
+                  </ul>
+                </Fragment>
+              ))}
+            </div>
           </div>
         </Blog>
       </main>
