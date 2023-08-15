@@ -24,6 +24,7 @@ import clsx from 'clsx';
 import {Spacer} from './components/spacer';
 import {Footer} from './components/footer';
 import { Seo } from '@shopify/hydrogen';
+import { Navbar } from './components/navbar';
 
 export const links: LinksFunction = () => [
   {
@@ -93,6 +94,7 @@ function App() {
         <Links />
       </head>
       <body className="bg-white transition duration-500 dark:bg-gray-900">
+        <Navbar />
         <Outlet />
         <Spacer size="base" />
         <Footer />

@@ -7,7 +7,7 @@ import type {
   LoaderArgs,
   V2_MetaFunction,
 } from '@shopify/remix-oxygen';
-import {json} from '@shopify/remix-oxygen';
+import {json, redirect} from '@shopify/remix-oxygen';
 import WORKS from '~/works';
 import type {IWork} from '~/types';
 import {getSeoMetas} from '~/utils/seo';
@@ -25,12 +25,15 @@ export const links: LinksFunction = () => {
 export function loader({params}: LoaderArgs) {
   const {handle} = params;
   const work = WORKS.filter((item) => item.handle === handle)[0];
+  if (!work) {
+    return redirect('/works');
+  }
   return json({work});
 }
 
 const WorkPage: React.FC = () => {
   const data = useLoaderData<typeof loader>();
-  const work: IWork = data.work!;
+  const work: IWork = data.work;
   return (
     <Fragment>
       <main>
