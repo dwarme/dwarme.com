@@ -3,6 +3,7 @@ const usesTools: {
   items: {
     title: string;
     subtitle: string;
+    link?: string;
   }[];
 }[] = [
   {
@@ -92,6 +93,36 @@ const usesTools: {
       {
         title: 'Apple Macbook',
         subtitle: '',
+      },
+    ],
+  },
+  {
+    title: 'Newsletters',
+    items: [
+      {
+        title: 'JavaScript Weekly',
+        subtitle: '',
+        link: 'https://javascriptweekly.com/',
+      },
+      {
+        title: 'Frontend Focus',
+        subtitle: '',
+        link: 'https://frontendfoc.us/',
+      },
+      {
+        title: 'Node Weekly',
+        subtitle: '',
+        link: 'https://nodeweekly.com/',
+      },
+      {
+        title: 'React Status',
+        subtitle: '',
+        link: 'https://react.statuscode.com/',
+      },
+      {
+        title: 'ByteByteGo',
+        subtitle: '',
+        link: 'https://bytebytego.com',
       },
     ],
   },

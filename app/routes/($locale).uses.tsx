@@ -49,7 +49,7 @@ const UsesPage: React.FC = () => {
                   <ul>
                     {use.items.map((item) => (
                       <li key={item.title}>
-                        <a href={'#'}>{item.title}</a> - {item.subtitle}
+                        <a href={item.link ?? '#'}>{item.title}</a>{item.subtitle ? ` - ${item.subtitle}` : ''}
                       </li>
                     ))}
                   </ul>
