@@ -34,7 +34,7 @@ const UsesPage: React.FC = () => {
             images={[
               {
                 id: 'id-n47BSWYHSWB',
-                src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/GR63GS7366GW747274.jpg?v=1692091538',
+                src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/macros-H467GS63YW73Y.png?v=1692129709',
                 alt: 'laptop-coding',
                 caption: '',
               },
