@@ -73,7 +73,7 @@ function WorksHome() {
               src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/portfolio-logo.png?v=1691507682',
               alt: '',
             }}
-            workUrl="/works/dwarme"
+            workUrl="/"
             technologies={[
               'Javascript',
               'Typescript',

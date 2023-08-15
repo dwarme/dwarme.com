@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import {Fragment} from 'react';
 import proseStyles from '~/styles/prose.css';
 import blogStyles from '~/styles/blog.css';

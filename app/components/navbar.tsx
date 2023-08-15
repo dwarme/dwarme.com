@@ -1,12 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import {Link, useLocation} from '@remix-run/react';
 import {clsx} from 'clsx';
-import {
-  AnimatePresence,
-  motion,
-  useAnimation,
-  useReducedMotion,
-} from 'framer-motion';
+import {motion, useAnimation, useReducedMotion} from 'framer-motion';
 import * as React from 'react';
 import {Theme, Themed, useTheme} from '~/utils/theme-provider';
 import {useElementState} from './hooks/use-element-state';
