@@ -15,7 +15,6 @@ import {
 } from '@remix-run/react';
 
 import appStyles from './styles/app.css';
-import proseStyles from './styles/prose.css';
 import tailwindStyles from './styles/tailwind.css';
 import vendorStyles from './styles/vendors.css';
 import {ThemeProvider, useTheme} from './utils/theme-provider';
@@ -23,8 +22,8 @@ import {getThemeSession} from './utils/theme.server';
 import clsx from 'clsx';
 import {Spacer} from './components/spacer';
 import {Footer} from './components/footer';
-import { Seo } from '@shopify/hydrogen';
-import { Navbar } from './components/navbar';
+import {Seo} from '@shopify/hydrogen';
+import {Navbar} from './components/navbar';
 
 export const links: LinksFunction = () => [
   {
@@ -62,7 +61,6 @@ export const links: LinksFunction = () => [
   {rel: 'icon', href: '/favicon.ico'},
   {rel: 'stylesheet', href: vendorStyles},
   {rel: 'stylesheet', href: tailwindStyles},
-  {rel: 'stylesheet', href: proseStyles},
   {rel: 'stylesheet', href: appStyles},
 ];
 
