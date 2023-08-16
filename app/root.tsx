@@ -24,7 +24,6 @@ import {Spacer} from './components/spacer';
 import {Footer} from './components/footer';
 import {Seo} from '@shopify/hydrogen';
 import {Navbar} from './components/navbar';
-import useShopifyAnalyctis from './components/hooks/use-shopify-analytics';
 
 export const links: LinksFunction = () => [
   {
@@ -82,7 +81,6 @@ export async function loader({request}: DataFunctionArgs) {
 }
 
 function App() {
-  useShopifyAnalyctis();
   const [theme] = useTheme();
   return (
     <html lang="en" className={clsx(theme, `set-color-team-current-blue`)}>
