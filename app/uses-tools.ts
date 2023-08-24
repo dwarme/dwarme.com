@@ -76,6 +76,14 @@ const usesTools: {
         subtitle:
           'A great way to keep my styling consistent and stay productive.',
       },
+      {
+        title: 'Swift',
+        subtitle: '',
+      },
+      {
+        title: 'SwiftUI',
+        subtitle: '',
+      },
     ],
   },
   {

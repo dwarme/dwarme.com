@@ -12,7 +12,6 @@ const Blog: React.FC<BlogProps> & {
   Gallery: typeof Gallery;
   Text: typeof Text;
 } = ({children}) => {
-
   return (
     <section>
       <article>{children}</article>
