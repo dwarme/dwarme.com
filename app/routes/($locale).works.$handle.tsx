@@ -1,25 +1,15 @@
 import {useLoaderData} from '@remix-run/react';
 import {Fragment} from 'react';
-import blogStyles from '~/styles/blog.css';
-import Blog from '~/components/blog/blog';
-import type {
-  LinksFunction,
-  LoaderArgs,
-  V2_MetaFunction,
-} from '@shopify/remix-oxygen';
+import type {LoaderArgs, V2_MetaFunction} from '@shopify/remix-oxygen';
 import {json, redirect} from '@shopify/remix-oxygen';
-import WORKS from '~/works';
-import type {IWork} from '~/types';
+import WORKS from '~/resources/resource-works';
 import {getSeoMetas} from '~/utils/seo';
+import Section from '~/package/keepsimple-ui/components/layout/Section/Section';
 
 export const meta: V2_MetaFunction<typeof loader> = ({data}) => {
   return getSeoMetas({
     title: data?.work.title ?? 'Works',
   });
-};
-
-export const links: LinksFunction = () => {
-  return [{rel: 'stylesheet', href: blogStyles}];
 };
 
 export function loader({params}: LoaderArgs) {
@@ -33,42 +23,16 @@ export function loader({params}: LoaderArgs) {
 
 const WorkPage: React.FC = () => {
   const data = useLoaderData<typeof loader>();
-  const work: IWork = data.work;
+  const work = data.work;
+
   return (
     <Fragment>
       <main>
-        <Blog>
-          <Blog.Header title={work.title} subtitle={work.summary} />
-          {work.blogData.map((blog) => {
-            if (blog.device === 'mobile') {
-              return (
-                <Fragment key={blog.id}>
-                  <Blog.Gallery device="mobile" images={blog.imagePreviews} />
-                  <Blog.Text
-                    text={
-                      <span
-                        dangerouslySetInnerHTML={{__html: blog.htmlContent}}
-                      ></span>
-                    }
-                  />
-                </Fragment>
-              );
-            }
-
-            return (
-              <Fragment key={blog.id}>
-                <Blog.Gallery device="desktop" images={blog.imagePreviews} />
-                <Blog.Text
-                  text={
-                    <span
-                      dangerouslySetInnerHTML={{__html: blog.htmlContent}}
-                    ></span>
-                  }
-                />
-              </Fragment>
-            );
-          })}
-        </Blog>
+        <Section>
+          <Section.Content>
+            <h1>COMMING SOON</h1>
+          </Section.Content>
+        </Section>
       </main>
     </Fragment>
   );

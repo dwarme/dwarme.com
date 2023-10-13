@@ -1,0 +1,47 @@
+.grid-tile-contact-me .front-face{
+    background: linear-gradient(to top left,#1ABCFA,#1C7DF3) !important;
+    color: #fff!important;
+}
+
+.grid-tile-contact-me .svg-plus path{
+    fill: #FFFFFF!important;
+}
+
+.grid-tile-contact-me .typography-tile-subhead{
+    color: #FFFFFF!important;
+}
+
+@media only screen and (min-width:1250px) {
+    .grid-tile-contact-me .typography-blockquote-copy {
+        font-size: 56px;
+        line-height: 1.0714285714;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+        font-family: var(--tile-font-family-primary);
+    }
+}
+
+@media only screen and (min-width:1069px)and (max-width:1249px) {
+    .grid-tile-contact-me .typography-blockquote-copy {
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+        font-family: var(--tile-font-family-primary);
+    }
+}
+
+@media only screen and (max-width:1068px) {
+    .grid-tile-contact-me .typography-blockquote-copy {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: var(--tile-font-family-primary);
+    }
+}
+
+.grid-tile-contact-me .flip-tile-button.icon-wrapper .icon.arrow-icon{
+    background-color: #FFFFFF!important;
+    color: #60a8ff!important;
+}

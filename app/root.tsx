@@ -1,9 +1,4 @@
-import {
-  json,
-  type DataFunctionArgs,
-  type LinksFunction,
-  type SerializeFrom,
-} from '@shopify/remix-oxygen';
+import {type LinksFunction} from '@shopify/remix-oxygen';
 import {
   Links,
   LiveReload,
@@ -11,19 +6,22 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-  useLoaderData,
 } from '@remix-run/react';
 
-import appStyles from './styles/app.css';
-import tailwindStyles from './styles/tailwind.css';
-import vendorStyles from './styles/vendors.css';
-import {ThemeProvider, useTheme} from './utils/theme-provider';
-import {getThemeSession} from './utils/theme.server';
-import clsx from 'clsx';
-import {Spacer} from './components/spacer';
-import {Footer} from './components/footer';
 import {Seo} from '@shopify/hydrogen';
-import {Navbar} from './components/navbar';
+import Nav from '~/components/Nav/Nav';
+import Footer from '~/components/Footer/Footer';
+import themeStyles from '~/package/keepsimple-ui/css/theme/theme.css';
+import typographyStyles from '~/package/keepsimple-ui/css/theme/typography.css';
+import animationStyles from '~/package/keepsimple-ui/css/theme/animation.css';
+import navbarStyles from '~/package/keepsimple-ui/css/theme/nav/localnav.css';
+import footerStyles from '~/package/keepsimple-ui/css/theme/footer.css';
+import gridStyles from '~/package/keepsimple-ui/css/template/grid-tile.css';
+import modalStyles from '~/package/keepsimple-ui/css/theme/modal.css';
+import appStyles from '~/styles/app.css';
+import componentHeroStyles from '~/components/Home/Section/Hero/Hero.css';
+import componentSectionAboutStyles from '~/components/Home/Section/SectionAbout/SectionAbout.css';
+import componentContactStyles from '~/components/Home/Section/Contact/Contact.css';
 
 export const links: LinksFunction = () => [
   {
@@ -59,31 +57,22 @@ export const links: LinksFunction = () => [
   },
   {rel: 'manifest', href: '/site.webmanifest'},
   {rel: 'icon', href: '/favicon.ico'},
-  {rel: 'stylesheet', href: vendorStyles},
-  {rel: 'stylesheet', href: tailwindStyles},
+  {rel: 'stylesheet', href: themeStyles},
+  {rel: 'stylesheet', href: typographyStyles},
+  {rel: 'stylesheet', href: animationStyles},
+  {rel: 'stylesheet', href: navbarStyles},
+  {rel: 'stylesheet', href: footerStyles},
+  {rel: 'stylesheet', href: gridStyles},
+  {rel: 'stylesheet', href: modalStyles},
   {rel: 'stylesheet', href: appStyles},
+  {rel: 'stylesheet', href: componentHeroStyles},
+  {rel: 'stylesheet', href: componentSectionAboutStyles},
+  {rel: 'stylesheet', href: componentContactStyles},
 ];
 
-export type LoaderData = SerializeFrom<typeof loader>;
-
-export async function loader({request}: DataFunctionArgs) {
-  const [themeSession] = await Promise.all([getThemeSession(request)]);
-
-  const data = {
-    requestInfo: {
-      session: {
-        theme: themeSession.getTheme(),
-      },
-    },
-  };
-
-  return json(data);
-}
-
 function App() {
-  const [theme] = useTheme();
   return (
-    <html lang="en" className={clsx(theme, `set-color-team-current-blue`)}>
+    <html lang="en" dir="ltr">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -91,10 +80,9 @@ function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-white transition duration-500 dark:bg-gray-900">
-        <Navbar />
+      <body>
+        <Nav />
         <Outlet />
-        <Spacer size="base" />
         <Footer />
         <ScrollRestoration />
         <Scripts />
@@ -105,10 +93,5 @@ function App() {
 }
 
 export default function AppWithProviders() {
-  const data = useLoaderData<LoaderData>();
-  return (
-    <ThemeProvider specifiedTheme={data.requestInfo.session.theme}>
-      <App />
-    </ThemeProvider>
-  );
+  return <App />;
 }

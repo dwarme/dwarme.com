@@ -1,8 +1,14 @@
 import {V2_MetaFunction} from '@shopify/remix-oxygen';
-import {Grid} from '~/components/grid';
-import {HeroSection} from '~/components/sections/hero-section';
-import {WorkCard} from '~/components/work-card';
+import {Fragment} from 'react';
 import {getSeoMetas} from '~/utils/seo';
+import BreveDetails from '~/components/Works/BreveDetails';
+import useTheme from '~/hooks/useTheme';
+import {CSSTypography} from '~/package/keepsimple-ui/types/theme.d';
+import Contact from '~/components/Home/Section/Contact/Contact';
+import WORKS from '~/resources/resource-works';
+import {SITE_MAP} from '~/utils/constants-util';
+import Section from '~/package/keepsimple-ui/components/layout/Section/Section';
+import GridTiles from '~/package/keepsimple-ui/components/template/Grid/Tiles/Tiles';
 
 export const meta: V2_MetaFunction = () => {
   return getSeoMetas({
@@ -11,106 +17,68 @@ export const meta: V2_MetaFunction = () => {
 };
 
 function WorksHome() {
+  useTheme('theme-dark');
   return (
-    <>
-      <HeroSection
-        title="Explore my works"
-        subtitle="Embark on a Journey Through My Creations"
-        imageProps={{
-          src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/72351db1ea1b4386aec2da04b2da68a1.png',
-          alt: 'react-3d-logo',
-          width: 666,
-          height: 375,
-        }}
-      />
+    <Fragment>
+      <main>
+        <Section>
+          <Section.Content>
+            <div
+              className="width-full text-center"
+              style={{padding: '30px 0px'}}
+            >
+              <h2
+                className={`text-center ${CSSTypography['headline-elevated']}`}
+              >
+                My Works
+              </h2>
+              <h3
+                className={`${CSSTypography['headline-reduced']}`}
+                style={{opacity: 0.6}}
+              >
+                Deliver resilient, scalable, performance and beauty to
+                applications - that&apos;s what I do best.
+              </h3>
+            </div>
+          </Section.Content>
+        </Section>
+        <GridTiles>
+          {WORKS.map((work, index) => (
+            <GridTiles.Half
+              key={work.title}
+              button={{
+                icon: 'arrow',
+                onClick: (event) => {
+                  window.open(work.link.link, work.link.rel);
+                },
+              }}
+            >
+              <BreveDetails
+                icon={{
+                  src: work.logo,
+                  decoding: index + 1 <= 2 ? 'async' : undefined,
+                }}
+                title={work.title}
+                subTitle={work.subTitle}
+                description={work.description}
+              />
+            </GridTiles.Half>
+          ))}
 
-      <h2 className="sr-only" id="works">
-        Works
-      </h2>
-
-      <Grid className="gap-y-4">
-        <div className="col-span-full lg:col-span-6">
-          <WorkCard
-            title="MiniBz Pay"
-            description="Mobile and Web payment app."
-            imageProps={{
-              src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/minibank-logo.png?v=1691507682',
-              alt: 'mini bz pay logo',
+          <GridTiles.Full
+            className="grid-tile-contact-me"
+            button={{
+              icon: 'arrow',
+              onClick: () => {
+                window.location.href = SITE_MAP.contactMe;
+              },
             }}
-            workUrl="https://minibzpay.it"
-            technologies={[
-              'Javascript',
-              'Typescript',
-              'React',
-              'React Native',
-              'Redux ToolKit',
-              'Node.js',
-              'Express JS',
-              'GraphQL',
-              'EJS',
-            ]}
-          />
-        </div>
-
-        <div className="col-span-full mt-12 lg:col-span-6 lg:mt-0">
-          <WorkCard
-            title="Cattown"
-            description="An educational, trilingual, and hybrid game."
-            imageProps={{
-              src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/cattown-logo.png?v=1691507682',
-              alt: '',
-            }}
-            workUrl="https://cattown.it"
-            technologies={['Javascript', 'Typescript', 'React', 'PHP Laravel']}
-          />
-        </div>
-
-        <div className="col-span-full lg:col-span-6">
-          <WorkCard
-            title="Portfolio"
-            description="My personal web site."
-            imageProps={{
-              src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/portfolio-logo.png?v=1691507682',
-              alt: '',
-            }}
-            workUrl="/"
-            technologies={[
-              'Javascript',
-              'Typescript',
-              'React',
-              'Tailwind CSS',
-              'Node.js',
-              'Remix.run',
-            ]}
-          />
-        </div>
-
-        <div className="col-span-full mt-12 lg:col-span-6 lg:mt-0">
-          <WorkCard
-            title="Trovads"
-            description="Marketing tool to discover facebook success ads."
-            imageProps={{
-              src: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/trovads_logo.png',
-              alt: '',
-              style: {borderRadius: 20},
-            }}
-            workUrl="/works/"
-            technologies={[
-              'Javascript',
-              'Typescript',
-              'React',
-              'Redux ToolKit',
-              'Python',
-              'Node.js',
-              'Express JS',
-              'GraphQL',
-              'EJS',
-              'Stripe',
-            ]}
-          />
-        </div>
-      </Grid>
-    </>
+          >
+            <Contact />
+          </GridTiles.Full>
+        </GridTiles>
+      </main>
+    </Fragment>
   );
 }
 

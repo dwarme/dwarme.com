@@ -1,0 +1,22 @@
+const MY_SKILLS = [
+  'JAVASCRIPT',
+  'NODE JS',
+  'TYPESCRIPT',
+  'GRAPHQL',
+  'REACT JS',
+  'REACT NATIVE',
+  'REDUX',
+  'EXPRESS',
+  'RESTFull API',
+  'POSTGRESS',
+  'MYSQL',
+  'GITHUB',
+  'GIT',
+  'STRIPE',
+  'DATA STRUCTURE',
+  'PROBLEM SOLVING',
+  'SYSTEM DESIGN',
+  'API DEVELOPMENT',
+];
+
+export default MY_SKILLS;
