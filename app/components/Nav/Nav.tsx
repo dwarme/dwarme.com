@@ -17,6 +17,7 @@ const Nav: React.FC<NavProps> = ({active}) => {
         items: [
           {title: 'Overview', link: SITE_MAP.home, active: active === 'home'},
           {title: 'Works', link: SITE_MAP.works, active: active === 'works'},
+          {title: 'Resume', link: SITE_MAP.resume, active: active === 'resume'},
         ],
 
         actions: [

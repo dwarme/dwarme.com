@@ -4,6 +4,7 @@ export const SERVER =
 export const SITE_MAP = {
   home: '/',
   works: '/works',
+  resume: '/resume',
   contactMe: '/contact-me',
   legals: {
     privacy: '/legal/privacy',

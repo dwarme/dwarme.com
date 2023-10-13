@@ -22,6 +22,8 @@ import appStyles from '~/styles/app.css';
 import componentHeroStyles from '~/components/Home/Section/Hero/Hero.css';
 import componentSectionAboutStyles from '~/components/Home/Section/SectionAbout/SectionAbout.css';
 import componentContactStyles from '~/components/Home/Section/Contact/Contact.css';
+import componentModalStandardStyles from '~/components/Modal/ModalStandard.css';
+import componentResumeStyles from '~/components/Resume/Resume.css';
 
 export const links: LinksFunction = () => [
   {
@@ -68,6 +70,8 @@ export const links: LinksFunction = () => [
   {rel: 'stylesheet', href: componentHeroStyles},
   {rel: 'stylesheet', href: componentSectionAboutStyles},
   {rel: 'stylesheet', href: componentContactStyles},
+  {rel: 'stylesheet', href: componentModalStandardStyles},
+  {rel: 'stylesheet', href: componentResumeStyles},
 ];
 
 function App() {

@@ -16,7 +16,7 @@ export const meta: V2_MetaFunction = () => {
   });
 };
 
-function WorksHome() {
+function WorksIndex() {
   useTheme('theme-dark');
   return (
     <Fragment>
@@ -82,4 +82,4 @@ function WorksHome() {
   );
 }
 
-export default WorksHome;
+export default WorksIndex;
