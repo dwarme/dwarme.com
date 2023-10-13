@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from '~/package/keepsimple-ui/components/overlay/Modal/Modal';
 
 const modalToggleId = 'modal-toggle-experience';
-const ExperienceModal: React.FC & {toggleId: string} = () => {
+const ModalExperience: React.FC & {toggleId: string} = () => {
   return (
     <Modal toggleId={modalToggleId}>
       <div>
@@ -51,5 +51,5 @@ const ExperienceModal: React.FC & {toggleId: string} = () => {
   );
 };
 
-ExperienceModal.toggleId = modalToggleId;
-export default ExperienceModal;
+ModalExperience.toggleId = modalToggleId;
+export default ModalExperience;

@@ -16,7 +16,7 @@
     --modal-overlay-max-width: 1420px;
     --modal-overlay-padding-bottom: 10px;
     --modal-overlay-padding-inline: 10px;
-    --modal-overlay-padding-top: calc(var(--nav-height) + 10px);
+    --modal-overlay-padding-top: calc(0px);
     --modal-scrim-fill: rgba(0,0,0,0.48);
     --modal-scrim-blur: 20px;
 }

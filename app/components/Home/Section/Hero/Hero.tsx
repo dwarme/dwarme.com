@@ -24,8 +24,8 @@ const Hero = () => {
               alt=""
               src={APP_MEDIA.image.profileAvatar}
               decoding="async"
-              width={210}
-              height={210}
+              width={400}
+              height={400}
             />
           </div>
           <div

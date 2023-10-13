@@ -6,13 +6,19 @@ interface ModalStandardProps {
   children: ReactNode;
   onClose?: () => void;
   open?: boolean;
+  toggleId?: string;
 }
 
 const ModalStandard = forwardRef(function (
-  {children, id, onClose, open}: ModalStandardProps,
+  {children, id, onClose, open, toggleId}: ModalStandardProps,
   ref,
 ) {
-  const {handleClose, isOpen} = useModalStandard({open, onClose, ref});
+  const {handleClose, isOpen} = useModalStandard({
+    open,
+    toggleId,
+    onClose,
+    ref,
+  });
 
   useEffect(() => {
     if (isOpen) {

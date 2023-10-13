@@ -7,10 +7,11 @@ import Skills from '~/components/Home/Section/Skills/Skills';
 import Works from '~/components/Home/Section/Works/Works';
 import Contact from '~/components/Home/Section/Contact/Contact';
 import Hero from '~/components/Home/Section/Hero/Hero';
-import ExperienceModal from '~/components/Home/Section/Experience/ExperienceModal';
+import ExperienceModal from '~/components/Modal/ModalExperience/ModalExperience';
 import SkillsModal from '~/components/Home/Section/Skills/SkillsModal';
 import {SITE_MAP} from '~/utils/constants-util';
 import SectionAbout from '~/components/Home/Section/SectionAbout';
+import ModalExperience from '~/components/Modal/ModalExperience/ModalExperience';
 
 export const meta: V2_MetaFunction = () => {
   return getSeoMetas({
@@ -29,7 +30,7 @@ function AboutIndex() {
         <GridTiles>
           <GridTiles.Half
             button={{
-              id: ExperienceModal.toggleId,
+              id: ModalExperience.toggleId,
               icon: 'plus',
               onClick: (event) => {},
             }}
