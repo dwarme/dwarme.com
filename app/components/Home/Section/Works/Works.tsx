@@ -20,6 +20,8 @@ const Works: React.FC = () => {
           style={{objectFit: 'contain'}}
           alt="built"
           loading="lazy"
+          width={1046}
+          height={406}
           src={APP_MEDIA.image.worksLarge}
         />
       </picture>
