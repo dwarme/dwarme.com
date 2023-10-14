@@ -1,7 +1,7 @@
 const Works: React.FC = () => {
   return (
     <div
-      className="width-full display-flex justify-content-center"
+      className="width-full display-flex justify-content-center align-items-center"
       style={{height: '100%'}}
     >
       <picture>
