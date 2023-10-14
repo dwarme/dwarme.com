@@ -1,3 +1,5 @@
+import {APP_MEDIA} from '~/utils/constants-util';
+
 const Works: React.FC = () => {
   return (
     <div
@@ -7,18 +9,18 @@ const Works: React.FC = () => {
       <picture>
         <source
           media="(max-width: 734px)"
-          srcSet="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/works-small-theme-light.png?v=1697285147"
+          srcSet={APP_MEDIA.image.worksSmall}
         />
         <source
           media="(min-width: 735px)"
-          srcSet="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/works-large-theme-ligth.png?v=1697284907"
+          srcSet={APP_MEDIA.image.worksLarge}
         />
         <img
           className="width-full"
           style={{objectFit: 'contain'}}
           alt="built"
           loading="lazy"
-          src="https://cdn.shopify.com/s/files/1/0770/5690/1456/files/works-large-theme-ligth.png?v=1697284907"
+          src={APP_MEDIA.image.worksLarge}
         />
       </picture>
     </div>

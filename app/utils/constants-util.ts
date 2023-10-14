@@ -21,9 +21,11 @@ export const APP_MEDIA = {
     fullstackDev:
       'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/fullstack-dev-0c5d08f2d4e7e3e8bc55711befad02f7.svg?v=1691507682',
     skills:
-      'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/skills.png?v=1691507682',
-    works:
-      'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/works.png?v=1691507682',
+      'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/skills-theme-light.png?v=1697288772',
+    worksSmall:
+      'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/works-small-theme-light.png?v=1697285147',
+    worksLarge:
+      'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/works-large-theme-ligth.png?v=1697284907',
     appsLogo: {
       cattown:
         'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/cattown_logo.jpg?v=1697211678',
