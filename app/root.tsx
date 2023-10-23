@@ -17,20 +17,6 @@ import componentSocialLinksStyles from '~/components/SocialsLink/SocialsLink.css
 
 export const links: LinksFunction = () => [
   {
-    rel: 'preload',
-    as: 'font',
-    href: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/Matter-Medium.woff2?v=1692029811',
-    type: 'font/woff2',
-    crossOrigin: 'anonymous',
-  },
-  {
-    rel: 'preload',
-    as: 'font',
-    href: 'https://cdn.shopify.com/s/files/1/0770/5690/1456/files/Matter-Regular.woff2?v=1692029811',
-    type: 'font/woff2',
-    crossOrigin: 'anonymous',
-  },
-  {
     rel: 'apple-touch-icon',
     sizes: '180x180',
     href: '/favicons/apple-touch-icon.png',
