@@ -1,4 +1,4 @@
-import {LinksFunction, V2_MetaFunction} from '@shopify/remix-oxygen';
+import {V2_MetaFunction} from '@shopify/remix-oxygen';
 import Layout from '~/components/Layout';
 import Gallery from '~/components/Gallery';
 import Modal from '~/components/Modal';
@@ -86,22 +86,47 @@ function WorksPage() {
         </div>
       </Gallery>
       <Modal triggerId={MODAL_TRIGGERS_ID.minibzpay} contentType="post-media">
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'minibz pay description',
+          }}
+        />
       </Modal>
       <Modal triggerId={MODAL_TRIGGERS_ID.cattown} contentType="post-media">
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'cattown description',
+          }}
+        />
       </Modal>
       <Modal triggerId={MODAL_TRIGGERS_ID.trovads} contentType="post-media">
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'trovads description',
+          }}
+        />
       </Modal>
       <Modal
         triggerId={MODAL_TRIGGERS_ID.creativeIdeas}
         contentType="post-media"
       >
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'creative ideas description',
+          }}
+        />
       </Modal>
       <Modal triggerId={MODAL_TRIGGERS_ID.portfolio} contentType="post-media">
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'portfolio description',
+          }}
+        />
       </Modal>
       <Modal triggerId="modal-trigger-contact">
         <Modal.ContentActions

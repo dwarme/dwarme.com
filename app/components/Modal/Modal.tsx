@@ -31,7 +31,7 @@ interface ModalContentActionsProps {
 interface ModalContentPostProps {
   post: {
     photoUrl: string;
-    accessibilityCaption?: string;
+    accessibilityCaption: string;
     link?: IModalAction;
   };
 }

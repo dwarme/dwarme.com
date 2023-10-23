@@ -5,9 +5,15 @@ import ProfileAbout from '~/components/ProfileAbout';
 import SocialsLink from '~/components/SocialsLink';
 import {assets, externalsLink, siteMap} from '~/utils/constants';
 import {Fragment} from 'react';
-import {LinksFunction} from '@shopify/remix-oxygen';
-
+import {LinksFunction, V2_MetaFunction} from '@shopify/remix-oxygen';
 import componentProfileAboutStyles from '~/components/ProfileAbout/ProfileAbout.css';
+import {getSeoMetas} from '~/utils/seo';
+
+export const meta: V2_MetaFunction = () => {
+  return getSeoMetas({
+    title: 'About',
+  });
+};
 
 export const links: LinksFunction = () => [
   {rel: 'stylesheet', href: componentProfileAboutStyles},
@@ -77,11 +83,21 @@ function IndexPage() {
         <SocialsLink />
       </Layout>
       <Modal triggerId="modal-trigger-experience" contentType="post-media">
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'experience description',
+          }}
+        />
       </Modal>
 
       <Modal triggerId="modal-trigger-skills">
-        <Modal.ContentPost post={{photoUrl: '/assets/test3.jpeg'}} />
+        <Modal.ContentPost
+          post={{
+            photoUrl: '/assets/test3.jpeg',
+            accessibilityCaption: 'skills',
+          }}
+        />
       </Modal>
 
       <Modal triggerId="modal-trigger-contact">

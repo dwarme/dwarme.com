@@ -22,7 +22,11 @@ function Navbar() {
   return (
     <Fragment>
       <nav id="topnav" ref={refNav} className="topnav">
-        <a className="topnav-profilepicture-container" href={siteMap.about}>
+        <a
+          className="topnav-profilepicture-container"
+          href={siteMap.about}
+          aria-label="about"
+        >
           <img
             className="topnav-profilepicture"
             src="/assets/profilepicture.png"
@@ -35,7 +39,11 @@ function Navbar() {
         <div className="topnav-profilename-container">
           <p className="topnav-profilename">Daouda Warme</p>
         </div>
-        <button id="modal-trigger-navmenu" className="topnav-menubutton">
+        <button
+          id="modal-trigger-navmenu"
+          className="topnav-menubutton"
+          aria-label="menu"
+        >
           <svg width="16" height="16" viewBox="0 0 16 16">
             <path
               fill="currentColor"
