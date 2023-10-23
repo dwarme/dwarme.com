@@ -1,3 +1,7 @@
+.section-resume .section-content {
+    max-width: 850px;
+}
+
 .resume-container {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;

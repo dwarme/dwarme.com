@@ -9,21 +9,11 @@ import {
 } from '@remix-run/react';
 
 import {Seo} from '@shopify/hydrogen';
-import Nav from '~/components/Nav/Nav';
-import Footer from '~/components/Footer/Footer';
-import themeStyles from '~/package/keepsimple-ui/css/theme/theme.css';
-import typographyStyles from '~/package/keepsimple-ui/css/theme/typography.css';
-import animationStyles from '~/package/keepsimple-ui/css/theme/animation.css';
-import navbarStyles from '~/package/keepsimple-ui/css/theme/nav/localnav.css';
-import footerStyles from '~/package/keepsimple-ui/css/theme/footer.css';
-import gridStyles from '~/package/keepsimple-ui/css/template/grid-tile.css';
-import modalStyles from '~/package/keepsimple-ui/css/theme/modal.css';
 import appStyles from '~/styles/app.css';
-import componentHeroStyles from '~/components/Home/Section/Hero/Hero.css';
-import componentSectionAboutStyles from '~/components/Home/Section/SectionAbout/SectionAbout.css';
-import componentContactStyles from '~/components/Home/Section/Contact/Contact.css';
-import componentModalStandardStyles from '~/components/Modal/ModalStandard.css';
-import componentResumeStyles from '~/components/Resume/Resume.css';
+import componentGalleryStyles from '~/components/Gallery/Gallery.css';
+import componentNavbarStyles from '~/components/Navbar/Navbar.css';
+import componentModalStyles from '~/components/Modal/Modal.css';
+import componentSocialLinksStyles from '~/components/SocialsLink/SocialsLink.css';
 
 export const links: LinksFunction = () => [
   {
@@ -59,19 +49,11 @@ export const links: LinksFunction = () => [
   },
   {rel: 'manifest', href: '/site.webmanifest'},
   {rel: 'icon', href: '/favicon.ico'},
-  {rel: 'stylesheet', href: themeStyles},
-  {rel: 'stylesheet', href: typographyStyles},
-  {rel: 'stylesheet', href: animationStyles},
-  {rel: 'stylesheet', href: navbarStyles},
-  {rel: 'stylesheet', href: footerStyles},
-  {rel: 'stylesheet', href: gridStyles},
-  {rel: 'stylesheet', href: modalStyles},
   {rel: 'stylesheet', href: appStyles},
-  {rel: 'stylesheet', href: componentHeroStyles},
-  {rel: 'stylesheet', href: componentSectionAboutStyles},
-  {rel: 'stylesheet', href: componentContactStyles},
-  {rel: 'stylesheet', href: componentModalStandardStyles},
-  {rel: 'stylesheet', href: componentResumeStyles},
+  {rel: 'stylesheet', href: componentNavbarStyles},
+  {rel: 'stylesheet', href: componentModalStyles},
+  {rel: 'stylesheet', href: componentGalleryStyles},
+  {rel: 'stylesheet', href: componentSocialLinksStyles},
 ];
 
 function App() {
@@ -85,9 +67,7 @@ function App() {
         <Links />
       </head>
       <body>
-        <Nav />
         <Outlet />
-        <Footer />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

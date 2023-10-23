@@ -1,15 +1,17 @@
+import {LinksFunction} from '@shopify/remix-oxygen';
+import Layout from '~/components/Layout';
 import Resume from '~/components/Resume';
-import Section from '~/package/keepsimple-ui/components/layout/Section/Section';
+import componentResumeStyles from '~/components/Resume/Resume.css';
+
+export const links: LinksFunction = () => [
+  {rel: 'stylesheet', href: componentResumeStyles},
+];
 
 function ResumeIndex() {
   return (
-    <main>
-      <Section>
-        <Section.Content>
-          <Resume />
-        </Section.Content>
-      </Section>
-    </main>
+    <Layout sectionClassName="section-resume">
+      <Resume />
+    </Layout>
   );
 }
 

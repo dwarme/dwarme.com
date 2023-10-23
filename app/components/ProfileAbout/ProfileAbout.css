@@ -1,0 +1,24 @@
+.profile-about {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    box-align: center;
+    -moz-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-about .profile-about-photo__container {
+    margin-bottom: 16px;
+}
+
+.profile-about .profile-about-photo {
+    width: 400px;
+    height: 400px;
+    display: block;
+    object-fit: contain;
+    object-position: initial;
+    filter: none;
+}
