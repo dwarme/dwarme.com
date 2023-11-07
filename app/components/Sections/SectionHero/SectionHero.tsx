@@ -20,7 +20,7 @@ function SectionHero() {
           <div className="hero-metadata__content">
             <h1 className="hero-headline__slogan">Daouda Warme</h1>
             <div className="cta">
-              <span className="hero-metadata__copy">— Frontend Developer</span>
+              <span className="hero-metadata__copy">— Fullstack Developer</span>
             </div>
           </div>
         </div>
