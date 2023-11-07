@@ -33,7 +33,7 @@ function SectionWorks() {
             <a href="https://cattown.it" target="_blank" rel="noreferrer">
               Trovads
             </a>{' '}
-            - Founder and Principal Engineer - Marketing Tool Service.
+            - Founder and Principal Engineer - Marketing Tool Service
             <br />
             <a href="https://trovads.com" target="_blank" rel="noreferrer">
               Creative Ideas (Project)
