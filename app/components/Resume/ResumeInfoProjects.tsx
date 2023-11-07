@@ -12,7 +12,7 @@ function ResumeInfoProjects() {
               target="__blank"
               className="link-works"
             >
-              dwarme.com/works
+              dwarme.com
             </a>{' '}
             and details can be provided upon request via a scheduled demo call.
           </p>
