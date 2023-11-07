@@ -11,7 +11,7 @@ function SectionHero() {
             loop
             muted
             playsInline
-            src="https://cdn.shopify.com/videos/c/o/v/1a572780d56f434585e4e2a566bc6d38.mp4"
+            src="https://cdn.shopify.com/videos/c/o/v/aec53250511a47d492e77138d18c914c.mp4"
             width={300}
             height={300}
           ></video>
