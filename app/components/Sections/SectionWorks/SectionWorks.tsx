@@ -18,17 +18,17 @@ function SectionWorks() {
             <a href="https://piwiii.com" target="_blank" rel="noreferrer">
               Piwiii
             </a>{' '}
-            - Co-Founder and Principal Engineer - Mobile Taxi App.
+            - Co-Founder and Principal Engineer - Mobile Taxi App
             <br />
             <a href="http://apple.com" target="_blank" rel="noreferrer">
               Mini Bz Pay
             </a>{' '}
-            - Leading Bolzano Pay App, both web and mobile.
+            - Leading Bolzano Pay App, both Web and Mobile
             <br />
             <a href="https://minibzpay.it" target="_blank" rel="noreferrer">
               Cattown
             </a>{' '}
-            - Principal Engineer - Interactive Game.
+            - Principal Engineer - Interactive Game
             <br />
             <a href="https://cattown.it" target="_blank" rel="noreferrer">
               Trovads
@@ -38,7 +38,7 @@ function SectionWorks() {
             <a href="https://trovads.com" target="_blank" rel="noreferrer">
               Creative Ideas (Project)
             </a>{' '}
-            - Led the Engineering - Marketing Tool.
+            - Led the Engineering - Marketing Tool
             <br />
             <a
               href="https://github.com/dwarme"
@@ -47,7 +47,7 @@ function SectionWorks() {
             >
               Github Projects
             </a>{' '}
-            - See my ongoing and completed projects.
+            - See my ongoing and completed projects
           </p>
           <div className="cta">
             <a href="/resume" className="cta-action typography-act-action">
