@@ -7,13 +7,11 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react';
-
 import {Seo} from '@shopify/hydrogen';
-import appStyles from '~/styles/app.css';
-import componentGalleryStyles from '~/components/Gallery/Gallery.css';
-import componentNavbarStyles from '~/components/Navbar/Navbar.css';
-import componentModalStyles from '~/components/Modal/Modal.css';
-import componentSocialLinksStyles from '~/components/SocialsLink/SocialsLink.css';
+
+import themeStyles from '~/styles/theme.css';
+import mainStyles from '~/styles/main.css';
+import componentNavbarStyles from '~/components/Navigation/Navigation.css';
 
 export const links: LinksFunction = () => [
   {
@@ -35,11 +33,9 @@ export const links: LinksFunction = () => [
   },
   {rel: 'manifest', href: '/site.webmanifest'},
   {rel: 'icon', href: '/favicon.ico'},
-  {rel: 'stylesheet', href: appStyles},
+  {rel: 'stylesheet', href: themeStyles},
+  {rel: 'stylesheet', href: mainStyles},
   {rel: 'stylesheet', href: componentNavbarStyles},
-  {rel: 'stylesheet', href: componentModalStyles},
-  {rel: 'stylesheet', href: componentGalleryStyles},
-  {rel: 'stylesheet', href: componentSocialLinksStyles},
 ];
 
 function App() {

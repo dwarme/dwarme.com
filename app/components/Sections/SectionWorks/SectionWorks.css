@@ -1,0 +1,57 @@
+.section-works {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+@media only screen and (max-width:1068px) {
+    .section-works {
+        padding-top: 85px;
+        padding-bottom: 40px;
+    }
+}
+
+.section-works .works-copy {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    display: block;
+    color: var(--systemColorGray1);
+}
+
+.section-works .works-copy a {
+    color: var(--systemColorDark);
+}
+
+@media only screen and (max-width: 734px) {
+    .section-works .works-copy {
+        width: 100%;
+        left: unset;
+        margin-top: 30px;
+    }
+}
+
+.typography-description-copy {
+    font-size: /*28px*/1rem;
+    line-height: /*1.1428571429*/2em;
+    font-weight: 600;
+    letter-spacing: .007em;
+}
+
+@media only screen and (max-width: 1068px) {
+    .typography-description-copy {
+        font-size: /*21px*/1rem;
+        line-height: /*1.1904761905*/2em;
+        font-weight: 600;
+        letter-spacing: .011em;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .typography-description-copy {
+        font-size: /*19px*/1rem;
+        line-height: /*1.2105263158*/2em;
+        font-weight: 600;
+        letter-spacing: .012em;
+    }
+}

@@ -1,0 +1,65 @@
+.section-about {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1068px)  {
+    .section-about {
+        padding-bottom: 85px;
+    }
+}
+
+.typography-about-copy {
+    /*font-size: 56px;
+    line-height: 1.0714285714;*/
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+}
+
+@media only screen and (max-width: 1068px) {
+    .typography-about-copy {
+        /*font-size: 48px;
+        line-height: 1.0834933333;*/
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 600;
+        letter-spacing: -0.003em;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .typography-about-copy {
+        /*font-size: 32px;
+        line-height: 1.125;*/
+        font-size: 1rem;
+        font-weight: 2rem;
+        font-weight: 600;
+        letter-spacing: .004em;
+    }
+}
+
+.section-about .about-copy {
+    --angle: 120deg;
+    margin-top: 70px;
+    color: var(--systemColorGray1);
+}
+
+.section-about .about-copy strong,
+.section-about .about-copy a {
+    color: var(--systemColorDark);
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-about .about-copy {
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-about .about-copy {
+        --angle: 140deg;
+        margin-top: 75px;
+    }
+}

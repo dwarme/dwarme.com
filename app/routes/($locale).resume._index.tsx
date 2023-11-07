@@ -2,6 +2,7 @@ import {LinksFunction, V2_MetaFunction} from '@shopify/remix-oxygen';
 import Layout from '~/components/Layout';
 import Resume from '~/components/Resume';
 import componentResumeStyles from '~/components/Resume/Resume.css';
+import Section from '~/components/Sections/Section';
 import {getSeoMetas} from '~/utils/seo';
 
 export const meta: V2_MetaFunction = () => {
@@ -14,12 +15,14 @@ export const links: LinksFunction = () => [
   {rel: 'stylesheet', href: componentResumeStyles},
 ];
 
-function ResumeIndex() {
+function ResumePage() {
   return (
-    <Layout sectionClassName="section-resume">
-      <Resume />
+    <Layout>
+      <Section>
+        <Resume />
+      </Section>
     </Layout>
   );
 }
 
-export default ResumeIndex;
+export default ResumePage;

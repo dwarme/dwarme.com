@@ -1,23 +1,20 @@
 import {Fragment, ReactNode} from 'react';
-import Navbar from '../Navbar';
+import Navigation from '../Navigation';
 
 interface LayoutProps {
   children?: ReactNode;
-  sectionClassName?: string;
+  id?: string;
 }
 
-function Layout({children, sectionClassName = ''}: LayoutProps) {
+function ScrollablePage({children, id}: LayoutProps) {
   return (
     <Fragment>
-      <Navbar />
-      <main>
-        <section className={`section app-mainsection ${sectionClassName}`}>
-          <div className="section-content">{children}</div>
-        </section>
+      <Navigation />
+      <main role="main" id={id}>
+        <div className="content-container">{children}</div>
       </main>
-      <footer />
     </Fragment>
   );
 }
 
-export default Layout;
+export default ScrollablePage;
