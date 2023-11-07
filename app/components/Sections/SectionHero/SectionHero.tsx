@@ -12,8 +12,8 @@ function SectionHero() {
             muted
             playsInline
             src="https://cdn.shopify.com/videos/c/o/v/aec53250511a47d492e77138d18c914c.mp4"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           ></video>
         </div>
         <div className="hero-metadata">
