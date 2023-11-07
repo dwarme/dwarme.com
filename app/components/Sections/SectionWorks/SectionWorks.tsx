@@ -18,27 +18,28 @@ function SectionWorks() {
             <a href="https://piwiii.com" target="_blank" rel="noreferrer">
               Piwiii
             </a>{' '}
-            - Watch my talk on designing sound for apps at WWDC 2017
+            - Co-Founder and Principal Engineer of a Mobile Taxi App.
             <br />
             <a href="http://apple.com" target="_blank" rel="noreferrer">
               Mini Bz Pay
             </a>{' '}
-            - Leading the Sound Design Team as part of Apple’s Design Team
+            - Leading Bolzano Pay&apos;s Payment App, both web and mobile.
             <br />
             <a href="https://minibzpay.it" target="_blank" rel="noreferrer">
               Cattown
             </a>{' '}
-            - Watch my talk on designing sound for apps at WWDC 2017
+            - Principal Engineer for an Interactive Game project as a
+            freelancer.
             <br />
             <a href="https://cattown.it" target="_blank" rel="noreferrer">
               Trovads
             </a>{' '}
-            - Watch my talk on designing sound for apps at WWDC 2017
+            - Founder and Principal Engineer of a Marketing Tool Service.
             <br />
             <a href="https://trovads.com" target="_blank" rel="noreferrer">
               Creative Ideas (Project)
             </a>{' '}
-            - Watch my talk on designing sound for apps at WWDC 2017
+            - Led the Engineering effort for a Marketing Tool.
             <br />
             <a
               href="https://github.com/dwarme"
@@ -47,7 +48,7 @@ function SectionWorks() {
             >
               Github Projects
             </a>{' '}
-            - Watch my talk on designing sound for apps at WWDC 2017
+            - See ongoing and completed Projects
           </p>
           <div className="cta">
             <a href="/resume" className="cta-action typography-act-action">
