@@ -40,7 +40,11 @@ function SectionWorks() {
             </a>{' '}
             - Personal Website
             <br />
-            <a href="https://trovads.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/dwarme"
+              target="_blank"
+              rel="noreferrer"
+            >
               Creative Ideas (Project)
             </a>{' '}
             - Led the Engineering - Marketing Tool
