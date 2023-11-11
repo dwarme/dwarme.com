@@ -20,17 +20,17 @@ function SectionWorks() {
             </a>{' '}
             - Co-Founder and Principal Engineer - Mobile Taxi App
             <br />
-            <a href="http://apple.com" target="_blank" rel="noreferrer">
+            <a href="http://minibzpay.com" target="_blank" rel="noreferrer">
               Mini Bz Pay
             </a>{' '}
             - Leading Bolzano Pay App, both Web and Mobile
             <br />
-            <a href="https://minibzpay.it" target="_blank" rel="noreferrer">
+            <a href="https://cattown.it" target="_blank" rel="noreferrer">
               Cattown
             </a>{' '}
             - Principal Engineer - Interactive Game
             <br />
-            <a href="https://cattown.it" target="_blank" rel="noreferrer">
+            <a href="https://dwarme.com" target="_blank" rel="noreferrer">
               Trovads
             </a>{' '}
             - Founder and Principal Engineer - Marketing Tool Service
