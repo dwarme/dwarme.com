@@ -15,22 +15,22 @@ function SectionWorks() {
 
         <div ref={refCopy} className="works-copy typography-description-copy">
           <p>
-            <a href="https://piwiii.com" target="_blank" rel="noreferrer">
+            <a href="#piwiii" rel="noreferrer">
               Piwiii
             </a>{' '}
             - Co-Founder and Principal Engineer - Mobile Taxi App
             <br />
-            <a href="http://minibzpay.com" target="_blank" rel="noreferrer">
+            <a href="#minibzpay" rel="noreferrer">
               Mini Bz Pay
             </a>{' '}
             - Leading Bolzano Pay App, both Web and Mobile
             <br />
-            <a href="https://cattown.it" target="_blank" rel="noreferrer">
+            <a href="#cattown" rel="noreferrer">
               Cattown
             </a>{' '}
             - Principal Engineer - Interactive Game
             <br />
-            <a href="https://dwarme.com" target="_blank" rel="noreferrer">
+            <a href="#trovads" rel="noreferrer">
               Trovads
             </a>{' '}
             - Founder and Principal Engineer - Marketing Tool Service

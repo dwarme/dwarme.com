@@ -23,8 +23,8 @@ function ResumeInfoExperiences() {
         keyTasks={[
           <>
             <strong>Technology Stack:</strong> Chose React for the web, Node.js
-            for the backend, Swift and SwiftUI for mobile apps, ensuring a
-            robust, cross-platform foundation.
+            for the backend, React Native for mobile apps, ensuring a robust,
+            cross-platform foundation.
           </>,
           <>
             <strong>Aesthetic Design:</strong> Collaborated with UI/UX designers
@@ -54,14 +54,9 @@ function ResumeInfoExperiences() {
             protect user information and transactions.
           </>,
           <>
-            <strong>API Integration:</strong> Integrated with payment gateways
-            and third-party services for seamless transactions and data
-            retrieval.
-          </>,
-          <>
             <strong>Cross-Platform Compatibility:</strong> Employed React Native
-            and SwiftUI for mobile apps to provide a consistent and responsive
-            experience on iOS and Android.
+            for mobile apps to provide a consistent and responsive experience on
+            iOS and Android.
           </>,
           <>
             <strong>User Feedback:</strong> Incorporated user feedback loops and
@@ -82,7 +77,7 @@ function ResumeInfoExperiences() {
       <Experience
         company="Cattown"
         jobTitle="Frontend Engineer"
-        dateStartEnd="2022 - 2022"
+        dateStartEnd="03/2022 - 12/2022"
         duration="9 Months"
         description="I led the development of the Cattown mobile web app from scratch, using React.js and custom CSS. Cattown is an engaging digital treasure hunt designed for children aged 10 to 13. The app fosters a sense of autonomy by challenging players to navigate the streets of cities like Bolzano, Merano, Bressanone, and Brunico."
         keyTasks={[
@@ -128,8 +123,7 @@ function ResumeInfoExperiences() {
           </>,
           <>
             <strong>Collaboration:</strong> Worked closely with a team of
-            developers, designers, and stakeholders to meet project milestones
-            and objectives.
+            developers, designers to meet project milestones and objectives.
           </>,
           <>
             <strong>User Feedback:</strong> Gathered user feedback and iterated
@@ -163,8 +157,8 @@ function ResumeInfoExperiences() {
             user interface to enhance the user experience.
           </>,
           <>
-            <strong>uthentication and Security:</strong> Ensured robust security
-            measures, including data encryption, authentication, and
+            <strong>Authentication and Security:</strong> Ensured robust
+            security measures, including data encryption, authentication, and
             authorization, to protect user information and transactions.
           </>,
           <>
