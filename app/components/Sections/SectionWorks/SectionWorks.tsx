@@ -1,5 +1,6 @@
 import useAppearAnimation from '~/hooks/use-appear-animation';
 import './SectionWorks.css';
+import {Link} from '@remix-run/react';
 
 function SectionWorks() {
   const {refElement: refHeadline} = useAppearAnimation<HTMLHeadingElement>();
@@ -15,17 +16,12 @@ function SectionWorks() {
 
         <div ref={refCopy} className="works-copy typography-description-copy">
           <p>
-            <a href="#piwiii" rel="noreferrer">
-              Piwiii
-            </a>{' '}
-            - Co-Founder and Principal Engineer - Mobile Taxi App
-            <br />
-            <a href="#minibzpay" rel="noreferrer">
+            <a href="https://minibzpay.it" target="_blank" rel="noreferrer">
               Mini Bz Pay
             </a>{' '}
             - Leading Bolzano Pay App, both Web and Mobile
             <br />
-            <a href="#cattown" rel="noreferrer">
+            <a href="https://cattown.it" target="_blank" rel="noreferrer">
               Cattown
             </a>{' '}
             - Principal Engineer - Interactive Game
@@ -59,7 +55,7 @@ function SectionWorks() {
             - See my ongoing and completed projects
           </p>
           <div className="cta">
-            <a href="/resume" className="cta-action typography-act-action">
+            <Link to="/resume" className="cta-action typography-act-action">
               <span>See my resume</span>
               <svg
                 version="1.1"
@@ -89,7 +85,7 @@ function SectionWorks() {
                   </g>
                 </g>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
