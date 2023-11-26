@@ -8,19 +8,20 @@ function ResumeInfoKeyQualifications() {
           <ul className="list">
             <li className="listitem">
               <span>
-                Proficient understanding of base front end development
-                technologies including HTML5/CSS3/JavaScript
+                Proficient in HTML5, CSS3, JavaScript, ReactJS, Typescript, CSS,
+                NodeJS.
               </span>
             </li>
             <li className="listitem">
-              <span>Strong experience in ReactJS, Typescript, CSS, NodeJS</span>
+              <span>
+                Strong experience in developing secure web applications and
+                addressing vulnerabilities.
+              </span>
             </li>
             <li className="listitem">
               <span>
-                Proficient understanding and xperience in developing secure web
-                applications and knowledge of application vulnerabilities such
-                as Cross Site Scripting (XSS), Cross Site Request Forgery (CSRF)
-                etc.
+                Significant experience using REST APIs, GraphQL, ExpressJS, and
+                other web development technologies.
               </span>
             </li>
             <li className="listitem">
@@ -30,23 +31,15 @@ function ResumeInfoKeyQualifications() {
               </span>
             </li>
             <li className="listitem">
-              <span>Significant experience using GraphQL, ExpressJS</span>
+              <span>Ability to quickly adapt to new technologies.</span>
+            </li>
+            <li className="listitem">
+              <span>Excellent communication and interpersonal skills.</span>
             </li>
             <li className="listitem">
               <span>
-                Ability to independently quickly fast new technologies
-              </span>
-            </li>
-            <li className="listitem">
-              <span>
-                Good communication and personal skills: ability to interact and
-                work well with members of other functional groups in a project
-                team and a strong sense of project ownership
-              </span>
-            </li>
-            <li className="listitem">
-              <span>
-                Love the idea of ownership and delivering high quality products
+                Familiar with Data Structures, Algorithms, Design Patterns,
+                CI/CD, Software Testing, and more.
               </span>
             </li>
           </ul>

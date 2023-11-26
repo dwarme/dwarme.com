@@ -49,59 +49,20 @@ function ResumeInfoExperiences() {
         jobTitle="Frontend Engineer"
         dateStartEnd="03/2022 - 12/2022"
         duration="9 Months"
-        description="I led the development of the Cattown mobile web app from scratch, using React.js and custom CSS. Cattown is an engaging digital treasure hunt designed for children aged 10 to 13. The app fosters a sense of autonomy by challenging players to navigate the streets of cities like Bolzano, Merano, Bressanone, and Brunico."
+        description="Led the development of the Cattown mobile web app from scratch, using React.js and custom CSS."
         keyTasks={[
           <>
-            <strong>Project Initiation:</strong> Defined project scope and
-            requirements.
+            Collaborated with designers to create wireframes and mockups for an
+            engaging user interface.
           </>,
           <>
-            <strong>Technology Stack:</strong> Utilized React.js for a flexible
-            front-end.
+            Implemented state management using React Context API and Redux for
+            efficient data management.
           </>,
+          <>Integrated external APIs for map data and QR code functionality.</>,
           <>
-            <strong>UI/UX Design: </strong> Collaborated with designers to
-            create wireframes and mockups, ensuring an engaging and
-            user-friendly interface.
-          </>,
-          <>
-            <strong>State Management:</strong> Implemented state management
-            using React&apos;s Context API to efficiently manage game data and
-            user progress.
-          </>,
-          <>
-            <strong>Custom CSS:</strong> Designed and implemented custom CSS
-            styles to match the game&apos;s unique aesthetic, optimizing for
-            mobile screens.
-          </>,
-          <>
-            <strong>API Integration:</strong> Integrated external APIs for map
-            data and QR code functionality, ensuring seamless interaction
-          </>,
-          <>
-            <strong>Multi-Language Support:</strong> Implemented content
-            translation and language switch functionality.
-          </>,
-          <>
-            <strong>Responsive Design:</strong> Ensured the app&apos;s
-            responsiveness on various mobile devices and screen sizes for a
-            consistent user experience.
-          </>,
-          <>
-            <strong>Testing and Debugging:</strong> Rigorously tested the app,
-            identifying and resolving bugs and issues to enhance stability.
-          </>,
-          <>
-            <strong>Collaboration:</strong> Worked closely with a team of
-            developers, designers to meet project milestones and objectives.
-          </>,
-          <>
-            <strong>User Feedback:</strong> Gathered user feedback and iterated
-            on the app to improve gameplay and address user needs.
-          </>,
-          <>
-            <strong>Maintenance:</strong> Continued to provide ongoing
-            maintenance and updates to keep the app running smoothly.
+            Ensured app responsiveness on various devices through responsive
+            design.
           </>,
         ]}
       />
@@ -110,40 +71,18 @@ function ResumeInfoExperiences() {
         jobTitle="Founder"
         dateStartEnd="2021 - 2023"
         duration="1.2 Years"
-        description="Trovads is a multifunctional marketing tool designed to help users discover winning Facebook ads from dropshipping and brand campaigns, offering valuable insights.  I led the development of Trovads, ensuring it is feature-rich and user-friendly."
+        description="Led the development of Trovads, a multifunctional marketing tool for discovering winning Facebook ads."
         keyTasks={[
           <>
-            <strong>Project Leadership:</strong> Orchestrated the entire
-            project, from concept to execution.
+            Orchestrated the entire project, from concept to execution, using
+            React, Node.js, Python, and Google Vision API.
           </>,
           <>
-            <strong>Tech Stack:</strong> Chose React for the web, Node.js for
-            robust back-end functionality and API integration, Python for web
-            crawling and Google Vision API for image analysis, Stripe for secure
+            Ensured robust security measures and integrated Stripe for secure
             payment processing.
           </>,
           <>
-            <strong>UI/UX Design: </strong> Designed an intuitive and responsive
-            user interface to enhance the user experience.
-          </>,
-          <>
-            <strong>Authentication and Security:</strong> Ensured robust
-            security measures, including data encryption, authentication, and
-            authorization, to protect user information and transactions.
-          </>,
-          <>
-            <strong>Ad Discovery and Image Search:</strong> Developed core
-            functionalities for discovering successful Facebook ads and
-            performing image searches with Google Vision.
-          </>,
-          <>
-            <strong>Keyword Crawling and Analysis: </strong> Implemented Python
-            and Selenium for efficient web crawling to extract store marketing
-            keywords and product image data.
-          </>,
-          <>
-            <strong>Payment Integration: </strong> Integrated Stripe to enable
-            secure transactions for premium features.
+            Developed core functionalities for ad discovery and image search.
           </>,
         ]}
       />
@@ -152,35 +91,18 @@ function ResumeInfoExperiences() {
         jobTitle="Self Employed"
         dateStartEnd="2020 - 2022"
         duration="2+ Years"
-        description="I managed multiple Shopify stores, each focused on a single product. Using Facebook and Snapchat Ads Manager, I advertised to a global audience. Collaboration with Chinese suppliers, ongoing store analysis, and seamless Stripe payments led to over 900 sales worldwide."
+        description="Managed multiple Shopify stores, advertising globally through Facebook and Snapchat Ads Manager."
         keyTasks={[
           <>
-            <strong>Store Setup:</strong> Created individual Shopify stores for
-            each product. Designed stores for a user-friendly experience.
+            Created individual Shopify stores for each product, emphasizing a
+            user-friendly experience.
           </>,
           <>
-            <strong>Supplier Relations:</strong> Collaborated with Chinese
-            suppliers for product sourcing. Negotiated favorable terms for
-            pricing and shipping.
+            Collaborated with Chinese suppliers, leading to over 900 worldwide
+            sales.
           </>,
-          <>
-            <strong>Product Selection:</strong> Conducted thorough research to
-            choose high-demand products.
-          </>,
-          <>
-            <strong>Advertising Channels:</strong> Utilized Facebook and
-            Snapchat Ads Manager for advertising. Tailored ad campaigns to
-            target specific audiences.
-          </>,
-          <>
-            <strong>Shopify Analysis:</strong> Regularly analyzed store
-            performance, including traffic, conversion rates, and revenue.
-          </>,
-          <>
-            <strong>International Sales:</strong> Made 900+ sales worldwide,
-            including Italy, France, and the USA. Used Stripe as the payment
-            processor for seamless transactions.
-          </>,
+          <>Utilized Stripe for seamless transactions.</>,
+          <>Utilized Facebook and Snapchat Ads Manager for advertising.</>,
         ]}
       />
     </ResumeInfo>

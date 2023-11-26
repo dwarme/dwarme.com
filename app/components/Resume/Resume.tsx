@@ -13,9 +13,9 @@ function Resume() {
       <ResumeInfoAbout />
       <ResumeInfoContact />
       <ResumeInfoExperiences />
-      <ResumeInfoProjects />
       <ResumeInfoKeyQualifications />
       <ResumeInfoOtherSkills />
+      <ResumeInfoProjects />
     </ResumeEmpty>
   );
 }
