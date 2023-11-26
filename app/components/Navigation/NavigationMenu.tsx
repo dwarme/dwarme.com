@@ -1,17 +1,19 @@
+import {Link} from '@remix-run/react';
+
 const NavigationMenu: React.FC = () => {
   return (
     <div className="app-nav-menu">
       <div className="app-nav-menu__desktop">
         <ul className="app-nav-menu__items">
           <li className="app-nav-menu__item">
-            <a className="app-nav-menu__link current" href={'/'}>
+            <Link className="app-nav-menu__link current" to={'/'}>
               About
-            </a>
+            </Link>
           </li>
           <li className="app-nav-menu__item">
-            <a className="app-nav-menu__link" href={'/resume'}>
+            <Link className="app-nav-menu__link" to={'/resume'}>
               Resume
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
