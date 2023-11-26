@@ -6,9 +6,10 @@ function ResumeInfoAbout() {
       <div className="info-row">
         <div className="info-box text-box">
           <p className="value">
-            Engineer valued for driving high-performance accessible web
-            experiences. I design quality, user-friendly and scalable products
-            regardless of stack.
+            Experienced Engineer dedicated to crafting high-performance,
+            accessible web experiences. I specialize in designing quality,
+            user-friendly, and scalable products across diverse technology
+            stacks.
           </p>
         </div>
       </div>

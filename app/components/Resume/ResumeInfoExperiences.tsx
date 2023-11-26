@@ -19,58 +19,28 @@ function ResumeInfoExperiences() {
         jobTitle="Fullstack Engineer"
         dateStartEnd="2022 - Present"
         duration="1.6 Years"
-        description="Lead the development of MiniBz Pay payment web and mobile app with focus on creating a visually appealing and high-performance application, ensuring a seamless and secure payment experience for users."
+        description="Led the development of MiniBz Pay payment web and mobile app, ensuring a visually appealing and high-performance application."
         keyTasks={[
           <>
-            <strong>Technology Stack:</strong> Chose React for the web, Node.js
-            for the backend, React Native for mobile apps, ensuring a robust,
-            cross-platform foundation.
+            Employed React for the web, Node.js for the backend, and React
+            Native for mobile apps.
           </>,
           <>
-            <strong>Aesthetic Design:</strong> Collaborated with UI/UX designers
-            to create a visually appealing, user-friendly design with a focus on
-            aesthetics.
+            Collaborated with UI/UX designers for a visually appealing and
+            user-friendly design.
           </>,
           <>
-            <strong>Performance Optimization:</strong> Employed various
-            techniques such as code splitting, lazy loading, and bundle size
-            reduction to achieve blazing-fast load times and smooth user
-            interactions.
+            Implemented performance optimization techniques, including code
+            splitting and lazy loading, resulting in blazing-fast load times.
           </>,
           <>
-            <strong>Web Caching:</strong> Implemented intelligent web caching
-            strategies to reduce server load and minimize data transfer,
-            enhancing app responsiveness.
+            Ensured app adherence to accessibility standards, promoting
+            inclusivity.
           </>,
           <>
-            <strong>Image Optimization:</strong> Utilized advanced image
-            optimization techniques like lazy loading, responsive images, and
-            CDN integration to maintain high-quality visuals while improving
-            load times.
-          </>,
-          <>
-            <strong>Security: </strong> Ensured robust security measures,
-            including data encryption, authentication, and authorization, to
-            protect user information and transactions.
-          </>,
-          <>
-            <strong>Cross-Platform Compatibility:</strong> Employed React Native
-            for mobile apps to provide a consistent and responsive experience on
-            iOS and Android.
-          </>,
-          <>
-            <strong>User Feedback:</strong> Incorporated user feedback loops and
-            A/B testing to continuously improve the app&apos;s aesthetic and
-            functionality.
-          </>,
-          <>
-            <strong>Automated Testing:</strong> Implemented automated testing
-            and continuous integration pipelines to maintain code quality and
-            reliability.
-          </>,
-          <>
-            <strong>Accessibility: </strong>Ensured the app adhered to
-            accessibility standards, making it inclusive for all users.
+            Ensured robust security measures, including data encryption,
+            authentication, and authorization, to protect user information and
+            transactions.
           </>,
         ]}
       />
