@@ -1,4 +1,5 @@
 import {Link} from '@remix-run/react';
+import EXTERNAL_LINKS from '~/utils/external-links';
 
 const NavigationMenuMobileContent: React.FC = () => {
   return (
@@ -15,6 +16,26 @@ const NavigationMenuMobileContent: React.FC = () => {
               <Link to="/resume" className="app-mobilenav-link">
                 Resume
               </Link>
+            </li>
+            <li className="app-mobilenav-list-item-elevated">
+              <a
+                href={EXTERNAL_LINKS.linkedin}
+                target="_blank"
+                className="app-mobilenav-link"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li className="app-mobilenav-list-item-elevated">
+              <a
+                href={EXTERNAL_LINKS.github}
+                target="_blank"
+                className="app-mobilenav-link"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </li>
           </ul>
         </div>
