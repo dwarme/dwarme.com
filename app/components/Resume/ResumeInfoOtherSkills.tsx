@@ -19,7 +19,7 @@ function ResumeInfoOtherSkills() {
               <span>
                 React Native, Swift/SwiftUI, Remix.run, Shopify Hydrogen,
                 Shopify storefront API, Stripe API, Python, Selenium Web
-                crawler, StencilJS.
+                crawler, StencilJS, Java.
               </span>
             </li>
           </ul>
