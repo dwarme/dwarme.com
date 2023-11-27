@@ -30,6 +30,10 @@ function ResumeInfoExperiences() {
             user-friendly design.
           </>,
           <>
+            Implemented REST API and GraphQL for efficient data communication
+            and retrieval.
+          </>,
+          <>
             Implemented performance optimization techniques, including code
             splitting and lazy loading, resulting in blazing-fast load times.
           </>,
@@ -76,6 +80,10 @@ function ResumeInfoExperiences() {
           <>
             Orchestrated the entire project, from concept to execution, using
             React, Node.js, Python, and Google Vision API.
+          </>,
+          <>
+            Implemented REST API and GraphQL for efficient data communication
+            and retrieval.
           </>,
           <>
             Ensured robust security measures and integrated Stripe for secure
