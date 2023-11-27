@@ -1,3 +1,5 @@
+import {Link} from '@remix-run/react';
+
 const NavigationMenuMobileContent: React.FC = () => {
   return (
     <div id="app-mobilenav" className="app-mobilenav">
@@ -5,14 +7,14 @@ const NavigationMenuMobileContent: React.FC = () => {
         <div className="app-mobilenav-content">
           <ul className="app-mobilenav-list">
             <li className="app-mobilenav-list-item-elevated">
-              <a href="/" className="app-mobilenav-link">
+              <Link to="/" className="app-mobilenav-link">
                 About
-              </a>
+              </Link>
             </li>
             <li className="app-mobilenav-list-item-elevated">
-              <a href="/resume" className="app-mobilenav-link">
+              <Link to="/resume" className="app-mobilenav-link">
                 Resume
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
