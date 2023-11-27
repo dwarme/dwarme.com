@@ -1,12 +1,17 @@
 import './Navigation.css';
 import NavigationMenu from './NavigationMenu';
 import NavigationBrand from './NavigationBrand';
-import {Fragment} from 'react';
+import React, {Fragment} from 'react';
 import NavigationMenuMobileContent from './NavigationMenuMobileContent';
 const Navigation: React.FC = () => {
+  const handleInputMenuStateChange = () => {
+    document.body.classList.toggle('noscroll');
+  };
+
   return (
     <Fragment>
       <input
+        onChange={handleInputMenuStateChange}
         type="checkbox"
         id="app-nav-menustate"
         className="app-nav-menustate"
@@ -24,4 +29,4 @@ const Navigation: React.FC = () => {
     </Fragment>
   );
 };
-export default Navigation;
+export default React.memo(Navigation);

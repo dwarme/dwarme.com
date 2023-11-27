@@ -346,6 +346,7 @@
     }
 
     #app-nav-menustate:checked ~ #app-mobilenav {
+        position: fixed;
         display: flex;
         height: 100vh;
         background: #fbfbfd;
