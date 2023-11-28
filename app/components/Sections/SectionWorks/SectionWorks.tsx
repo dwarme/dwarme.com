@@ -11,7 +11,6 @@ function SectionWorks() {
       <div className="section-content">
         <div ref={refHeadline}>
           <h2 className="typography-section-eyebrow">Work</h2>
-          <h3 className="typography-section-headline">What I built</h3>
         </div>
 
         <div ref={refCopy} className="works-copy typography-description-copy">
