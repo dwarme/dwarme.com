@@ -79,7 +79,7 @@ function ResumeInfoExperiences() {
         keyTasks={[
           <>
             Orchestrated the entire project, from concept to execution, using
-            React, Node.js, Python, and Google Vision API.
+            React, Node.js, PHP Laravel, Python, and Google Vision API.
           </>,
           <>
             Implemented REST API and GraphQL for efficient data communication
