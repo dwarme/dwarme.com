@@ -9,7 +9,7 @@ function ResumeInfoKeyQualifications() {
             <li className="listitem">
               <span>
                 Proficient in HTML5, CSS3, JavaScript, ReactJS, Typescript, CSS,
-                NodeJS.
+                NodeJS, PHP.
               </span>
             </li>
             <li className="listitem">
