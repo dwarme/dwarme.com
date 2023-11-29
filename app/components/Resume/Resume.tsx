@@ -6,6 +6,8 @@ import ResumeInfoExperiences from './ResumeInfoExperiences';
 import ResumeInfoKeyQualifications from './ResumeInfoKeyQualifications';
 import ResumeInfoProjects from './ResumeInfoProjects';
 import ResumeInfoOtherSkills from './ResumeInfoOtherSkills';
+import ResumeInfoEducation from './ResumeInfoEducation';
+import ResumeInfoLanguage from './ResumeInfoLanguage';
 
 function Resume() {
   return (
@@ -16,6 +18,8 @@ function Resume() {
       <ResumeInfoKeyQualifications />
       <ResumeInfoOtherSkills />
       <ResumeInfoProjects />
+      <ResumeInfoEducation />
+      <ResumeInfoLanguage />
     </ResumeEmpty>
   );
 }
