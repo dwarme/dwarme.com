@@ -10,7 +10,7 @@ function ResumeInfoEducation() {
         </div>
         <div className="info-box">
           <p className="item">
-            Italy, Trentino Alto Adige, Bolzano, 2015 - 2020l
+            Italy, Trentino Alto Adige, Bolzano, 2015 - 2020
           </p>
           <p className="value"></p>
         </div>
