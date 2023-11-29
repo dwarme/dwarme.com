@@ -115,7 +115,7 @@ function ResumeInfoExperiences() {
       />
       <Experience
         company="426 - Your Digital Upgrade"
-        jobTitle="Web Developer - Intership"
+        jobTitle="Web Developer"
         dateStartEnd="11/2018 - 11/2018"
         duration="3 Weeks"
         description="Collaborated on WordPress PHP Plugin for an E-Commerce store"
@@ -132,7 +132,7 @@ function ResumeInfoExperiences() {
       />
       <Experience
         company="Innovation Discovery"
-        jobTitle="Software Developer - Contract"
+        jobTitle="Software Developer"
         dateStartEnd="06/2017 - 09/2017"
         duration="3 Months"
         description="Converted Java program to Python Selenium Crawler, improved code quality, and implemented innovative solutions"
