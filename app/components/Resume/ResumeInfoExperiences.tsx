@@ -113,6 +113,51 @@ function ResumeInfoExperiences() {
           <>Utilized Facebook and Snapchat Ads Manager for advertising.</>,
         ]}
       />
+      <Experience
+        company="426 - Your Digital Upgrade"
+        jobTitle="Web Developer - Intership"
+        dateStartEnd="11/2017 - 11/2017"
+        duration="3 Weeks"
+        description="Collaborated on WordPress PHP Plugin for an E-Commerce store"
+        keyTasks={[
+          <>
+            Developed and enhanced functionalities for a WordPress PHP Plugin in
+            support of an E-Commerce store.
+          </>,
+          <>
+            Gained hands-on experience in customizing and optimizing E-Commerce
+            features.
+          </>,
+        ]}
+      />
+      <Experience
+        company="Innovation Discovery"
+        jobTitle="Software Developer - Contract"
+        dateStartEnd="06/2018 - 09/2018"
+        duration="3 Months"
+        description="Converted Java program to Python Selenium Crawler, improved code quality, and implemented innovative solutions"
+        keyTasks={[
+          <>
+            Translated and optimized a Java program into a Python Selenium
+            Crawler, enhancing code quality and performance.
+          </>,
+          <>
+            Engineered a software solution to search and analyze websites
+            related to specific topics, extracting keywords to accurately score
+            pages. Utilized Artificial Intelligence to rewrite articles and
+            automated posting.
+          </>,
+          <>
+            Developed JavaScript programs to call Google Sheet API, converting
+            data into MySQL DB, and interfacing with an internal Python Django
+            API for seamless data integration.
+          </>,
+          <>
+            Collaborated with cross-functional teams to ensure smooth
+            communication and integration of diverse technologies.
+          </>,
+        ]}
+      />
     </ResumeInfo>
   );
 }
